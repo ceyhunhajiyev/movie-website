@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body {
+    background-color: #1E003D;
+}
+.header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding: 10px 5px 150px 5px;
+    overflow: hidden;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7E349D), to(#BE90D4));
+    background: linear-gradient (#7E349D,#BE90D4);
+    position: fixed;
+}
+
+.logoDiv {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20%;
+    height: auto;
+    margin: 10px 0 5px 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.mainMenuDiv {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 50px 0 5px 30px;
+    width: 25%;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.mainMenu {
+    list-style: none;
+}
+
+.mainMenu li {
+    float: left;
+}
+.mainMenu li a {
+    display: block;
+    padding: 10px 10px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 5px;
+    color: white;
+}
+
+
+.mainMenu li a:hover {
+    background-color: #7E349D;
+    color: white;
+}
+
+.mainMenu li a.active {
+    background-color:#7E349D; 
+    color: white;
+}
+
+.header .searchContainer {
+    float: right;
+    height: 25px;
+    margin: 50px 50px 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header input[type=text] {
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+}
+
+.header .searchContainer button {
+    padding: 8px 10px;
+    font-size: 15px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7E349D), to(#BE90D4));
+    background: linear-gradient (#7E349D,#BE90D4);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.header .searchContainer button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#BE90D4), to(#7E349D));
+    background: linear-gradient (#BE90D4,#7E349D);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#logoImage {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40%;
+    display: inline-block;
+    height: auto;
+}
+
+.mainOne {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 80%;
+    height: 800px;
+    float: left;
+    margin: 165px 5px 5px 0;
+    background-color: #3E005D;
+}
+
+
+.movieHeader {
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 20px 55px;
+}
+
+.movieContent {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+}
+#movieBox {
+    width: 14%;
+    height: 180px;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px 13.5px 10px 13.5px;
+    -webkit-box-shadow: 0px 2px 15px 4px rgba(36,0,36,1);
+    -moz-box-shadow: 0px 2px 15px 4px rgba(36,0,36,1);
+    box-shadow: 0px 2px 15px 4px rgba(36,0,36,1);
+}
+
+.todayMovieContent {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#todayMovieBox {
+    width: 80%;
+    height: 250px;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    margin: 0 auto;
+    margin-top: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 15px 4px rgba(36,0,36,1);
+    -moz-box-shadow: 0px 2px 15px 4px rgba(36,0,36,1);
+    box-shadow: 0px 2px 15px 4px rgba(36,0,36,1);
+}
+
+
+.todayMovieTitle {
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 10px 10px 10px 35px;
+}
+
+.todayMovieDetail {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    margin: 0 15px 10px 35px; 
+}
+
+
+.mainTwo button {
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 30px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#BE90D4), to(#7E349D));
+    background: linear-gradient (#BE90D4,#7E349D);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.mainTwo button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#7E349D), to(#BE90D4));
+    background: linear-gradient (#7E349D,#BE90D4);
+    border: none;
+    color: white;
+
+}
+
+
+.mainTwo {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 19%;
+    height: 800px;
+    float: right;
+    margin: 165px 0 5px 0;
+    background-color: #3E005D;
+}
+
+.todayMovie {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 470px;
+    float: left;
+    background-color: #1E003D;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.footerContainer {
+    width: 90%;
+    height: 390px;
+    margin: auto;
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#boxes {
+    width: 33.1%;
+    height: 370px;
+    float: left;
+}
+
+#headings {
+    font-size: 20px;
+    color: white;
+    text-decoration: overline;
+}
+
+#menus {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin: 0 auto;
+}
+
+#menus li {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menus li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#copyright {
+    text-align: right;
+    color: white;
+    margin: 0 30% 0 0;
+    font-size: 11px;
+}
+
+
+@media (max-width: 768px) {
+    #logoImage {
+        width: 60%;
+        
+    } 
+    .logoDiv {
+        margin-left: 30px;
+    }
+    .mainMenuDiv {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: -30px;
+        margin-left: 20px;
+    }
+    .searchContainer {
+        width: 80%;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .movieHeader {
+        font-size: 12px;
+    }
+    
+    .todayMovie {
+        font-size: 12px;
+        float: left;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header{
+        float: left;
+        height: 210px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainOne {
+        float: left;
+        width: 100%;
+        height: 1920px;
+        margin-top: 215px;
+    }
+    .movieHeader {
+        margin-left: 35px;
+    }
+    .movieContent {
+        height: 1800px;
+    }
+    #movieBox {
+        width: 42%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .mainTwo {
+        float: left;
+        width: 100%;
+        margin-top: 0;
+        height: 550px;
+    }
+    .todayMovieContent {
+        margin-top: 50px;
+    }
+    .mainTwo button {
+        margin-top: 20px;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media (max-width: 568px) {
+    .footer {
+        height: 900px;
+    }
+    .footerContainer {
+        height: 700px;
+    }
+    #boxes {
+        width: 90%;
+        float: left;
+    }
+    .boxTwo {
+        margin-top: -260px;
+    }
+    .boxThree {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 568px) {
+    #copyright {
+        margin-top: -50px;
+    }
+}
